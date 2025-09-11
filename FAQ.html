@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website | Home | Profile | FAQ | Blog</title>
+    <link rel="stylesheet" href="Fstyle.css" />
+    <link rel="icon" href="home.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#" class="logo">Portfolio.</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Profile.html" target="_blank">Profile</a></li>
+        <li>
+          <a href="Dashboard.html" target="_blank">Dashboard</a>
+        </li>
+        <li><a href="Blog.html" target="_blank">Blog</a></li>
+        <li><a href="FAQ.html" target="_blank">FAQ</a></li>
+      </ul>
+    </nav>
+    <h1>Frequently Asked Question</h1>
+    <div class="faq-item">
+      <div class="faq-question">Why did I choose the ICT program?</div>
+      <div class="faq-answer">
+        I choose the ICT program because I am passionate about technology and
+        problem-solving. It offers strong skills in software development,
+        networking, and data management, which are essential for a career in
+        today’s digital world. I also like that the program combines theory with
+        practical projects, preparing me well for the industry.
+      </div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">Why did I choose HZ University?</div>
+      <div class="faq-answer">
+        I choose HZ University because of its practical approach to learning,
+        international environment, and strong focus on innovation and
+        technology. The university offers great opportunities for hands-on
+        projects and collaboration with companies, which helps prepare me for a
+        successful career in ICT.
+      </div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">Which opportunities do I see?</div>
+      <div class="faq-answer">
+        As an ICT student, I see many opportunities in fields like software
+        development, cybersecurity, data science, and artificial intelligence.
+        The tech industry is rapidly growing, and there is a high demand for
+        skilled professionals who can innovate and solve real-world problems. I
+        also see opportunities to work on cutting-edge technologies and
+        contribute to digital transformation across industries.
+      </div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">Where do I see myself in the future?</div>
+      <div class="faq-answer">
+        I see myself working as a software developer, creating innovative and
+        user-friendly applications. I enjoy solving problems through code and
+        constantly learning new technologies. My goal is to build solutions that
+        make people’s lives easier and contribute to meaningful digital
+        projects.
+      </div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">What hobbies do I enjoy?</div>
+      <div class="faq-answer">
+        I really enjoy traveling and cricket. Traveling lets me explore new
+        places, cultures, and ideas, which broadens my perspective. Cricket is a
+        sport I love watching and playing because it combines strategy,
+        teamwork, and skill, which makes it exciting and challenging.
+      </div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">What do I like to do in my free time?</div>
+      <div class="faq-answer">
+        In my free time, I enjoy watching movies to relax and experience
+        different stories. I also like playing or following cricket, which keeps
+        me active and connected to the sport I love.
+      </div>
+    </div>
+    <script>
+      document.querySelectorAll(".faq-item").forEach((item) => {
+        item.addEventListener("click", () => {
+          item.classList.toggle("active");
+        });
+      });
+    </script>
+  </body>
+</html>
