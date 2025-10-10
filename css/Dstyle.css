@@ -90,9 +90,7 @@ h2 {
   justify-content: space-between;
   text-align: center;
 }
-.payment-card :hover {
-  transform: translate(-5px);
-}
+
 .card-header {
   display: flex;
   flex-direction: column;
